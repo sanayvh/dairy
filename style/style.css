@@ -1,0 +1,80 @@
+body {
+    direction: rtl;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1429px !important;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.logo img{
+    width: 20%;
+}
+
+.header{
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.login-btn {
+    background-color: #008475;
+    border: unset;
+    padding: 17px 32px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.login-btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.login-btn:hover {
+    background-color: #087368;
+}
+
+.btn-outline-success {
+    left: 10% !important;
+    position: absolute !important;
+    z-index: 10 !important;
+    background-color: #008475 !important;
+    color: #FFFFFF !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #087368 !important;
+    transition: 0.3s;
+}
+
+.shop-bag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F46036;
+    padding: 10px 26px 10px 10px;
+    border: unset;
+    border-radius: 8px;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.hero{
+    margin-top: 15px;
+}
+
+
+.hero-img img{
+    width: 100%;
+}
