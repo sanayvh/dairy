@@ -72,9 +72,55 @@ body {
 
 .hero{
     margin-top: 15px;
+    position: relative;
 }
-
 
 .hero-img img{
     width: 100%;
+}
+
+.hero-btn{
+    background-color: #FFFFFF;
+    color: #008475;
+    padding: 16px 32px;
+    border: unset;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+    right: 45%;
+}
+
+.hero-btn:hover{
+    background-color: #008475;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.products{
+    margin-top: 30px;
+
+}
+
+.products-title{
+    font-size: 32px;
+    color: #000000;
+    text-shadow: 1px 7px 8px rgba(0, 0, 0, 0.5);
+    padding-bottom: 35px;
+}
+
+.card{
+    -webkit-box-shadow: 10px 10px 38px -5px rgba(145,158,171,0.24);
+    -moz-box-shadow: 10px 10px 38px -5px rgba(145,158,171,0.24);
+    box-shadow: 10px 10px 38px -5px rgba(145,158,171,0.24);
+}
+
+.btn-primary{
+    background-color: #008475!important;
+    border: unset!important;
+    padding: 3px 10px 7px 10px !important;
 }
