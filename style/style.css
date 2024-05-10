@@ -124,3 +124,15 @@ body {
     border: unset!important;
     padding: 3px 10px 7px 10px !important;
 }
+
+.price{
+    color: #F46036;
+    font-size: 17px;
+}
+
+.card-body-price{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
